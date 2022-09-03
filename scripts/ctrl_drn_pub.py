@@ -80,7 +80,7 @@ def restart(self):
 
 class Test:
 	def __init__(self):
-		self.pub = rospy.Publisher('cmd', String, queue_size=10)
+		self.pub = rospy.Publisher('gnc_node/cmd', String, queue_size=10)
 		self.node = rospy.init_node('talker', anonymous=True) #genarate node
 		self.rate = rospy.Rate(100)
 		self.ctrl_key = ''
