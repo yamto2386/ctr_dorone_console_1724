@@ -102,9 +102,9 @@ class Test:
 				left(self)
 			elif key == 'd':	#press d to go right
 				right(self)
-			elif key == 'Up':	#press up_arrow to up
+			elif key == 'u':	#press up_arrow to up
 				up(self)
-			elif key == 'Down':	#press down_arrow to down
+			elif key == 'j':	#press down_arrow to down
 				down(self)
 			elif key == 'h':	#press down_arrow to down
 				halt(self)
